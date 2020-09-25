@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxFactory": "VueTsxSupport",
+    "moduleResolution": "Node",
+    "module": "ES2020",
+    "target": "es6",
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.d.ts",
+    "node_modules/vue-tsx-support/enable-check.d.ts"
+  ],
+  "exclude": ["node_modules", "build", "scripts", "components"]
+}
