@@ -2,15 +2,15 @@
   "compilerOptions": {
     "jsx": "preserve",
     "jsxFactory": "VueTsxSupport",
-    "moduleResolution": "Node",
-    "module": "ES2020",
-    "target": "es6",
-    "noEmit": true,
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
-    "isolatedModules": false,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
     "esModuleInterop": true,
-    "noImplicitAny": false,
-    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]

@@ -1,8 +1,19 @@
 {
+  "name": "v3chart",
+  "version": "0.0.2",
+  "description": "基于vue3.0+G24.0开发的vue组件",
+  "main": "src/index.ts",
+  "keywords": [
+    "vue",
+    "g2"
+  ],
+  "author": "bhabgs",
+  "license": "ISC",
   "scripts": {
     "dev": "rollup -c --watch",
     "rd": "bash rundoc.sh",
-    "build": "cross-env NODE_ENV=production rollup -c"
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
     "@antv/g2": "^4.0.15",
@@ -18,14 +29,12 @@
     "cssnano": "^4.1.10",
     "less": "^3.12.2",
     "rollup-plugin-postcss": "^3.1.8",
-    "rollup-plugin-uglify": "^6.0.4",
-    "rollup-plugin-vue": "^6.0.0-beta.10",
-    "typescript": "^4.0.3",
-    "vue": "^3.0.0"
+    "typescript": "^4.0.3"
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.1",
     "acorn-jsx": "^5.3.1",
-    "cross-env": "^7.0.2"
+    "cross-env": "^7.0.2",
+    "vue": "^3.0.0"
   }
 }

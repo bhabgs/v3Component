@@ -1,6 +1,11 @@
-interface ATS {}
-
-interface DATA {
-  a: number;
-  name: string;
+interface STRINGKEY<T = any> {
+  [k: string]: T;
 }
+
+interface TRANSFROMITEM {
+  type: string;
+  value: string;
+  percent: string;
+}
+
+type ChartColor = string | Array<string> | ((v: string | number) => string);
