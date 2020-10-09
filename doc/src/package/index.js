@@ -163,8 +163,16 @@ bar.install = function (app) {
   app.component(bar.name, bar);
 };
 
+/*
+ * @abstract: JianJie
+ * @version: 0.0.1
+ * @Author: bhabgs
+ * @Date: 2020-10-09 09:33:32
+ * @LastEditors: bhabgs
+ * @LastEditTime: 2020-10-09 10:05:14
+ */
 var component = [bar];
-var version = "0.0.1";
+var version = '0.0.1';
 
 var install = function (app) {
   component.map(function (item) {
